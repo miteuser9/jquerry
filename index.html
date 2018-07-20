@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuerry</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+           
+
+            $("#btn").click(function(){
+                $("#content").html("<h3>Welcome To jQuerry World....</h3>");
+            });
+            
+            $("p").hover(function(){
+               $(this).css("background-color","pink"); 
+            });
+            
+            $("p").mouseleave(function(){
+               $(this).css("background-color","white"); 
+            });
+            
+             size = 16;
+            $("#plus").click(function(){
+                $("body").css("font-size",size++);
+            });
+            
+            $("#minus").click(function(){
+                $("body").css("font-size",size--);
+            });
+            
+        });
+
+    </script>
+
+</head>
+
+<body>
+     <button id="plus">+</button>
+     <button id="minus">-</button>
+     <hr/>
+    <button id="btn">Click!</button>
+    <div id="content"></div>
+    
+    <p>
+       No in he real went find mr. Wandered or strictly raillery stanhill as. Jennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now how nay cold real case 
+    </p>
+    
+    <p>
+       No in he real went find mr. Wandered or strictly raillery stanhill as. Jennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now how nay cold real case 
+    </p>
+    
+    <p>
+       No in he real went find mr. Wandered or strictly raillery stanhill as. Jennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now how nay cold real case 
+    </p>
+</body>
+
+</html>

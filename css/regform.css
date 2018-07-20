@@ -1,0 +1,25 @@
+label{
+    width: 120px;
+    float: left;
+}
+.star{
+    color: red;
+}
+label.error{
+    float: none;
+    color: red;
+    padding-left: 20px;
+}
+
+select.inpreg{
+    width: 205px;
+    height: 25px;
+}
+input.inpreg{
+    width: 200px;
+    height: 25px;
+}
+#btnsub{
+    background-color: blueviolet;
+    color: wheat;
+}
