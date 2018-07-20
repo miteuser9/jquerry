@@ -149,7 +149,7 @@ $(function () {
                 data += "<td>" + j + "</td>";
                 data += "<td>" + students[i].usn + "</td>";
                 data += "<td>" + students[i].name + "</td>";
-                data += "<td>" + students[i].email + "< /td>";
+                data += "<td>" + students[i].email + "</td>";
                 data += "<td>" + students[i].mobile + "</td>";
                 data += "<td>" + students[i].dob + "</td>";
                 data += "<td>" + students[i].courses + "</td>";
